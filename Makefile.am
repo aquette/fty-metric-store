@@ -26,7 +26,7 @@ AM_CPPFLAGS = \
     -D__STDC_FORMAT_MACROS \
     -I$(srcdir)/include
 
-project_libs = ${libsodium_LIBS} ${libzmq_LIBS} ${czmq_LIBS} ${malamute_LIBS} ${fty_proto_LIBS} ${cxxtools_LIBS} ${tntdb_LIBS}
+project_libs = ${libzmq_LIBS} ${czmq_LIBS} ${malamute_LIBS} ${fty_proto_LIBS} ${cxxtools_LIBS} ${tntdb_LIBS}
 
 SUBDIRS = doc
 DIST_SUBDIRS = doc
